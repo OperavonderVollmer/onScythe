@@ -13,7 +13,7 @@
 - Python 3.x
 - Required dependencies (install using pip):
   ```sh
-  pip install pyautogui opencv-python
+  pip install pyautogui
   ```
 - [OperaPowerRelay](https://github.com/OperavonderVollmer/OperaPowerRelay) (Required for additional utilities)
 
