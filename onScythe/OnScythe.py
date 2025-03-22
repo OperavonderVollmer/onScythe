@@ -4,6 +4,14 @@ import os
 import json
 import time
 
+# CONSTANTS, if you want to change them
+
+TRIES = 3
+WAIT_TIME = 5
+VARIANT_TIME_X = 0
+VARIANT_TIME_Y = 10
+TRY_DELAY = 0
+
 def _main():
     key, path = _enumerate_choices() or (None, None)
     if key is None:
@@ -16,7 +24,7 @@ def _main():
             break
     try:
         os.system("cls")
-        click_on_sight(path)
+        click_on_sight(IMAGE_REFERENCE=path, tries=TRIES, wait_time=WAIT_TIME, variant_time_x=VARIANT_TIME_X, variant_time_y=VARIANT_TIME_Y, try_delay=TRY_DELAY)
     except Exception as e:
         print(e)
 
