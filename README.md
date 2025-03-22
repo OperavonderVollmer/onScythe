@@ -50,10 +50,9 @@ VARIANT_TIME_X = 0  # Random offset for X-coordinate
 VARIANT_TIME_Y = 10  # Random offset for Y-coordinate
 TRY_DELAY = 0  # Seconds to wait between tries
 ```
-
-## Usage
 Editing these values allows for fine-tuning the script’s behavior based on user preferences.
 
+## Usage
 ### Running the Program (Standalone)
 Simply execute the `OnScythe.bat` file to launch OnScythe.
 
