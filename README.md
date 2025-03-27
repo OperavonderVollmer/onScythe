@@ -37,7 +37,7 @@ This ensures you're using a stable version.
 
 Alternatively, to install the **latest commit** from the default branch:
 ```sh
-pip install git+https://github.com/OperavonderVollmer/OnScythe.git
+pip install git+https://github.com/OperavonderVollmer/OnScythe.git@main
 ```
 ⚠️ This may include untested changes.
 
